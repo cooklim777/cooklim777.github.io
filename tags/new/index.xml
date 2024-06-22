@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>New on 登登自動化</title>
-    <link>https://cooklim777.github.io/tags/new/</link>
+    <link>http://localhost:1313/tags/new/</link>
     <description>Recent content in New on 登登自動化</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 30 Mar 2024 10:07:47 +0800</lastBuildDate>
-    <atom:link href="https://cooklim777.github.io/tags/new/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Oct 2019 10:07:47 +0600</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/new/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>甚麼是RPA</title>
-      <link>https://cooklim777.github.io/blog/example-copy/</link>
-      <pubDate>Sat, 30 Mar 2024 10:07:47 +0800</pubDate>
-      <guid>https://cooklim777.github.io/blog/example-copy/</guid>
-      <description>testtest</description>
+      <title>How To Use Checklists To Improve Your UX</title>
+      <link>http://localhost:1313/blog/livaexample/</link>
+      <pubDate>Tue, 29 Oct 2019 10:07:47 +0600</pubDate>
+      <guid>http://localhost:1313/blog/livaexample/</guid>
+      <description>Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Emphasis Emphasis, aka italics, with asterisks or underscores.</description>
     </item>
   </channel>
 </rss>

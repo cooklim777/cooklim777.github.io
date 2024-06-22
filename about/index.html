@@ -11,7 +11,7 @@
   
   <meta name="theme-name" content="liva-hugo" />
   
-  <meta name="generator" content="Hugo 0.124.1">
+  <meta name="generator" content="Hugo 0.127.0">
 
   <!-- plugins -->
   
@@ -29,8 +29,8 @@
   <link rel="stylesheet" href="https://cooklim777.github.io/scss/style.min.css" media="screen">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="https://cooklim777.github.io/images/favicon.png " type="image/x-icon">
-  <link rel="icon" href="https://cooklim777.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="shortcut icon" href="https://cooklim777.github.io/images/robotLogo.png " type="image/x-icon">
+  <link rel="icon" href="https://cooklim777.github.io/images/robotLogo.png " type="image/x-icon">
 
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFF1RK6KYZ"></script>
@@ -62,11 +62,9 @@
       <div class="collapse navbar-collapse text-center" id="navigation">
         <div class="desktop-view">
           <ul class="navbar-nav mr-auto">
-            
             <li class="nav-item">
-              <a class="nav-link" href="#"><i class="ti-github"></i></a>
+              <a class="nav-link" href="#">Gordon></a>
             </li>
-            
           </ul>
         </div>
 
@@ -102,237 +100,34 @@
   </div>
 </header>
 <!-- /navigation -->
-<style>
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap");
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  --color: rgba(30, 30, 30);
-  --bgColor: $body-color;
-  min-height: 100vh;
-  display: grid;
-  align-content: center;
-  gap: 2rem;
-  padding: 2rem;
-  font-family: "Poppins", sans-serif;
-  color: var(--color);
-  background: var(--bgColor);
-}
-
-h1 {
-  text-align: center;
-}
-
-ul {
-  --col-gap: 2rem;
-  --row-gap: 2rem;
-  --line-w: 0.25rem;
-  display: grid;
-  grid-template-columns: var(--line-w) 1fr;
-  grid-auto-columns: max-content;
-  column-gap: var(--col-gap);
-  list-style: none;
-  
-  margin-inline: auto;
-}
-
- 
-ul::before {
-  content: "";
-  grid-column: 1;
-  grid-row: 1 / span 20;
-  background: rgb(225, 225, 225);
-  border-radius: calc(var(--line-w) / 2);
-}
-
- 
-
- 
-ul li:not(:last-child) {
-  margin-bottom: var(--row-gap);
-}
-
- 
-ul li {
-  grid-column: 2;
-  --inlineP: 1.5rem;
-  margin-inline: var(--inlineP);
-  grid-row: span 2;
-  display: grid;
-  grid-template-rows: min-content min-content min-content;
-}
-
- 
-ul li .date {
-  --dateH: 3rem;
-  height: var(--dateH);
-  margin-inline: calc(var(--inlineP) * -1);
-
-  text-align: center;
-  background-color: var(--accent-color);
-
-  color: white;
-  font-size: 1.25rem;
-  font-weight: 700;
-
-  display: grid;
-  place-content: center;
-  position: relative;
-
-  border-radius: calc(var(--dateH) / 2) 0 0 calc(var(--dateH) / 2);
-}
-
- 
-ul li .date::before {
-  content: "";
-  width: var(--inlineP);
-  aspect-ratio: 1;
-  background: var(--accent-color);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.2) 100%, transparent);
-  position: absolute;
-  top: 100%;
-
-  clip-path: polygon(0 0, 100% 0, 0 100%);
-  right: 0;
-}
-
- 
-ul li .date::after {
-  content: "";
-  position: absolute;
-  width: 2rem;
-  aspect-ratio: 1;
-  background: var(--bgColor);
-  border: 0.3rem solid var(--accent-color);
-  border-radius: 50%;
-  top: 50%;
-
-  transform: translate(50%, -50%);
-  right: calc(100% + var(--col-gap) + var(--line-w) / 2);
-}
-
- 
-ul li .title,
-ul li .descr {
-  background: var(--bgColor);
-  position: relative;
-  padding-inline: 1.5rem;
-}
-ul li .title {
-  overflow: hidden;
-  padding-block-start: 1.5rem;
-  padding-block-end: 1rem;
-  font-weight: 500;
-}
-ul li .descr {
-  padding-block-end: 1.5rem;
-  font-weight: 300;
-}
-
- 
-ul li .title::before,
-ul li .descr::before {
-  content: "";
-  position: absolute;
-  width: 90%;
-  height: 0.5rem;
-  background: rgba(0, 0, 0, 0.5);
-  left: 50%;
-  border-radius: 50%;
-  filter: blur(4px);
-  transform: translate(-50%, 50%);
-}
-ul li .title::before {
-  bottom: calc(100% + 0.125rem);
-}
-
-ul li .descr::before {
-  z-index: -1;
-  bottom: 0.25rem;
-}
-
-@media (min-width: 40rem) {
-  ul {
-    grid-template-columns: 1fr var(--line-w) 1fr;
-  }
-  ul::before {
-    grid-column: 2;
-  }
-  ul li:nth-child(odd) {
-    grid-column: 1;
-  }
-  ul li:nth-child(even) {
-    grid-column: 3;
-  }
-
-   
-  ul li:nth-child(2) {
-    grid-row: 2/4;
-  }
-
-  ul li:nth-child(odd) .date::before {
-    clip-path: polygon(0 0, 100% 0, 100% 100%);
-    left: 0;
-  }
-
-  ul li:nth-child(odd) .date::after {
-    transform: translate(-50%, -50%);
-    left: calc(100% + var(--col-gap) + var(--line-w) / 2);
-  }
-  ul li:nth-child(odd) .date {
-    border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
-  }
-}
-
-.credits {
-  margin-top: 1rem;
-  text-align: right;
-}
-.credits a {
-  color: var(--color);
-}
-</style>
-<section class="section-sm">
+<section class="timeline">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
         
-        <img src="https://cooklim777.github.io/images/author1.jpg" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4" style="max-width: 50% ">
+        <img src="https://cooklim777.github.io/images/author1.jpg" alt="" class="img-fluid d-block mx-auto rounded-circle mb-4" style="max-width: 30% ">
         
-        <h4 class="widget-title">About Me</h4>
+        <h4 class="widget-title">關於我</h4>
         <div class="content">
-          
+          <p>我是 Gordon，在 EMILY.RPA 擔任機器人教練，<br>
+簡單來說就是顧問＋工程是的角色。</p>
+
         </div>
         <h4 class="widget-title">Experience</h4>
 
         
         <ul>
-          <li style="--accent-color:#41516C">
-            <div class="date">2021</div>
-            <div class="title">Title 1</div>
-            <div class="descr"></div>
-          </li>
-          <li style="--accent-color:#FBCA3E">
-            <div class="date">2022</div>
-            <div class="title">Title 2</div>
-            <div class="descr"></div>
-          </li>
           <li style="--accent-color:#E24A68">
             <div class="date">2023</div>
-            <div class="title">Title 3</div>
-            <div class="descr"></div>
+            <div class="title">百林商智 EMILY.RPA 教練</div>
+            <div class="descr">一年內製作 12個自動化流程，每個流程約節省客戶 1hr/1天的工作量，幫助客戶節省1.5個人年。
+            </div>
           </li>
           <li style="--accent-color:#1B5F8C">
             <div class="date">2024</div>
-            <div class="title">Title 4</div>
-            <div class="descr"></div>
+            <div class="title">百林商智 EMILY.RPA 教練+講師</div>
+            <div class="descr">自動化流程評估、建議、開發，公司原廠 RPA講師
+            </div>
           </li>
         </ul>
          

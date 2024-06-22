@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML on 登登自動化</title>
-    <link>https://cooklim777.github.io/tags/html/</link>
+    <link>http://localhost:1313/tags/html/</link>
     <description>Recent content in HTML on 登登自動化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
     <lastBuildDate>Sat, 30 Mar 2024 10:07:47 +0800</lastBuildDate>
-    <atom:link href="https://cooklim777.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>甚麼是RPA</title>
-      <link>https://cooklim777.github.io/blog/example-copy/</link>
+      <link>http://localhost:1313/blog/example-copy/</link>
       <pubDate>Sat, 30 Mar 2024 10:07:47 +0800</pubDate>
-      <guid>https://cooklim777.github.io/blog/example-copy/</guid>
+      <guid>http://localhost:1313/blog/example-copy/</guid>
       <description>testtest</description>
     </item>
   </channel>

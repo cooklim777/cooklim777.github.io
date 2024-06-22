@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RPA 機器人自動化 on 登登自動化</title>
+    <link>http://localhost:1313/categories/rpa-%E6%A9%9F%E5%99%A8%E4%BA%BA%E8%87%AA%E5%8B%95%E5%8C%96/</link>
+    <description>Recent content in RPA 機器人自動化 on 登登自動化</description>
+    <generator>Hugo</generator>
+    <language>zh-TW</language>
+    <lastBuildDate>Sat, 30 Mar 2024 10:07:47 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/rpa-%E6%A9%9F%E5%99%A8%E4%BA%BA%E8%87%AA%E5%8B%95%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>甚麼是RPA</title>
+      <link>http://localhost:1313/blog/example-copy/</link>
+      <pubDate>Sat, 30 Mar 2024 10:07:47 +0800</pubDate>
+      <guid>http://localhost:1313/blog/example-copy/</guid>
+      <description>testtest</description>
+    </item>
+  </channel>
+</rss>
