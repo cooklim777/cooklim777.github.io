@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programing on 登登自動化</title>
+    <title>programing on 登登自動化</title>
     <link>https://cooklim777.github.io/tags/programing/</link>
-    <description>Recent content in Programing on 登登自動化</description>
-    <generator>Hugo</generator>
+    <description>Recent content in programing on 登登自動化</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sat, 22 Jun 2024 10:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 30 Jun 2024 10:07:47 +0800</lastBuildDate>
     <atom:link href="https://cooklim777.github.io/tags/programing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google form 預先填寫和自動送出</title>
+      <link>https://cooklim777.github.io/blog/googleform_pre-input/</link>
+      <pubDate>Sun, 30 Jun 2024 10:07:47 +0800</pubDate>
+      <guid>https://cooklim777.github.io/blog/googleform_pre-input/</guid>
+      <description>Google 表單預先填寫網址：省時省力，自動化填寫表單的秘密武器 在日常工作中，我們經常需要收集資訊，像是活動報名、客戶意見調查或員工資訊收集等等。Google 表單是一個方便的工具，可以幫助我們輕鬆建立線上表格。但如果每次都要手動輸入資料，效率就會顯得低下。今天就來介紹一個超實用的功能：Google 表單預先填寫網址，讓資料收集更加自動化，節省時間與精力！&#xA;一、什麼是 Google 表單預先填寫網址？&#xA;Google 表單預先填寫網址，是一個隱藏的功能，可以讓你在建立表單時，預先填寫部分或全部資料，直接生成一個包含預設值的連結。使用者點擊這個連結後，預設填寫的資料會自動填入表單，方便使用者直接填寫剩餘的資訊。</description>
+    </item>
     <item>
       <title>RPA 簡介</title>
       <link>https://cooklim777.github.io/blog/introduce_rpa/</link>
