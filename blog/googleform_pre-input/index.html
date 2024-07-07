@@ -134,7 +134,7 @@
 <ol>
 <li>開啟你創建的 Google 表單，編輯您的表單。</li>
 <li>找到右上方的三個點，點擊「取得先填寫網址」按鈕。
-<img src="../../images/post/googleForm1.png" alt="RUNOOB 图标"></li>
+<img src="../../images/post/googleForm1.png" alt="取得先填寫網址"></li>
 <li>在彈出的視窗中，選擇要預先填寫的欄位和對應的資料。</li>
 <li>複製生成的預先填寫網址，並分享給您的使用者。</li>
 </ol>
@@ -142,7 +142,7 @@
 但這個表單權限並非我們，而只能做填寫的動作，那我們該如何該得到該表單的預先填寫網址呢？</p>
 <p>將該表單開啟，先填入想預先填寫的答案。<br>
 點右鍵 -&gt; 檢查，看到網頁的節點，然後查詢 entry，就可以看到下方有許多的 name=&ldquo;entry.XXX&rdquo; 而後方的 value 就是填寫的答案。</p>
-<p><img src="../../images/post/googleForm2.png" alt="RUNOOB 图标"></p>
+<p><img src="../../images/post/googleForm2.png" alt="GoogleForm節點"></p>
 <p>我們在觀察一下當時若是自己建立的表單，預先填入的網址為 <a href="https://docs.google.com/forms/d/e/1FAIpQLSeot3nQMrDA_zb6I73heWID9tqFQHiYp0uYsZaKkXQdoUUe9w/viewform?usp=pp_url&amp;entry.280717920=">https://docs.google.com/forms/d/e/1FAIpQLSeot3nQMrDA_zb6I73heWID9tqFQHiYp0uYsZaKkXQdoUUe9w/viewform?usp=pp_url&amp;entry.280717920=</a>答案答案&hellip;<br>
 格式就是 <a href="https://docs.google.com/forms/d/e/%5B">https://docs.google.com/forms/d/e/[</a>表單連結ID]/viewform?usp=pp_url&amp;[欄位1代號]=[欄位1內容]&amp;&amp;[欄位2代號]=[欄位2內容]…</p>
 <p>再去做比對，其實 entry.280717920=答案答案，和我們在檢查中看到的 entry 節點就是同一個，所以我們只需要照個這個格式打，就能得到我們想要的預先填寫網址。</p>
