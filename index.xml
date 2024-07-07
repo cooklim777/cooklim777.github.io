@@ -6,12 +6,12 @@
     <description>Recent content on 登登自動化</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 30 Jun 2024 10:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 07 Jul 2024 10:07:47 +0800</lastBuildDate>
     <atom:link href="https://cooklim777.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chrome Extension 瀏覽器擴充功能開發</title>
       <link>https://cooklim777.github.io/blog/chromeextension/</link>
-      <pubDate>Sun, 30 Jun 2024 10:07:47 +0800</pubDate>
+      <pubDate>Sun, 07 Jul 2024 10:07:47 +0800</pubDate>
       <guid>https://cooklim777.github.io/blog/chromeextension/</guid>
       <description>Chrome Extension 瀏覽器擴充功能也能自己開發 Chrome Extension&#xA;Chrome Extension，有人稱瀏覽器插件、擴充功能，而我們也常常使用，最常使用的可能是 ad-block 吧，而其實還有很多的應用，甚至能夠自己開發，而這邊也先介紹一下我自己常使用的擴充功能&#xA;沉靜式翻譯 : 可以中英對照，且也支援 YT 等字幕 Save to Notion : 可以快速將頁面存到你 notion 中某一個分頁，之後可以再做回顧和整理。 Chrome Extension 如何開發</description>
     </item>
