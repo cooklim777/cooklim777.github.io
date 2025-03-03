@@ -6,8 +6,15 @@
     <description>Recent content in Programing on 登登自動化</description>
     <generator>Hugo</generator>
     <language>zh-TW</language>
-    <lastBuildDate>Sun, 07 Jul 2024 10:07:47 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 22 Feb 2025 10:07:47 +0800</lastBuildDate>
     <atom:link href="https://cooklim777.github.io/tags/programing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google form 自動填寫 - 使用 EMILY.RPA</title>
+      <link>https://cooklim777.github.io/blog/googleform_automation/</link>
+      <pubDate>Sat, 22 Feb 2025 10:07:47 +0800</pubDate>
+      <guid>https://cooklim777.github.io/blog/googleform_automation/</guid>
+      <description>&lt;h1 id=&#34;google-表單使用-rpa-自動填入提升效率的自動化技術&#34;&gt;Google 表單使用 RPA 自動填入：提升效率的自動化技術&lt;/h1&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;在日常工作中，我們經常需要填寫 Google 表單，無論是員工報銷、考勤記錄，還是客戶回饋等。如果每次都要手動輸入重複的資料，不僅耗時，還容易出錯。&#xA;這時候，我們可以運用 RPA（機器人流程自動化）來完成這些繁瑣的填表工作，讓 Google Form 自動填入資料，大幅提升效率。&lt;/p&gt;</description>
+    </item>
     <item>
       <title>Chrome Extension 瀏覽器擴充功能開發</title>
       <link>https://cooklim777.github.io/blog/chromeextension/</link>
